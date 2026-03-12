@@ -18,6 +18,29 @@
     <button onclick="calculateBMI()">Calculate BMI</button>
 
     <h2 id="result"></h2>
+
+<h2>Daily Calories Calculator</h2>
+
+<label>Age</label><br>
+<input type="number" id="age"><br><br>
+
+<label>Gender</label><br>
+<select id="gender">
+<option value="male">Male</option>
+<option value="female">Female</option>
+</select><br><br>
+
+<label>Activity Level</label><br>
+<select id="activity">
+<option value="1.2">Sedentary</option>
+<option value="1.375">Light Exercise</option>
+<option value="1.55">Moderate Exercise</option>
+<option value="1.725">Heavy Exercise</option>
+</select><br><br>
+
+<button onclick="calculateCalories()">Calculate Daily Calories</button>
+
+<h2 id="caloriesResult"></h2>
 </div>
 
 <script src="script.js"></script>
